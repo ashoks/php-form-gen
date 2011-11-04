@@ -20,7 +20,8 @@ $form = new Formbuilder($fake_db_vals);
 $results = $form->process();
 
 print '<pre>';
-var_dump($results);
+print_r($results);
+//var_dump($results);
 print '</pre>';
 
 ?>
